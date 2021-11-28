@@ -73,3 +73,16 @@ When sharing your key with others, you want to copy and paste from the beginning
 
 \&lt;…\&gt;
 
+# Publish the Public Key to a Key Server
+
+## Kleopatra
+
+Add your public key to a public key server so people can find your public key in order to send you secure messages.
+
+## GPA
+
+Add your public key to a public key server so people can find your public key in order to send you secure messages. A public key can be published to a key server from GPA by clicking on the &quot;Server&quot; menu and selecting &quot;Send Keys.&quot;
+
+## GPG Suite
+
+\&lt;…\&gt;
