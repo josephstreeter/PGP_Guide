@@ -1,4 +1,4 @@
-# Install
+# Install Clients
 
 ## Windows (GPG4Win)
 
