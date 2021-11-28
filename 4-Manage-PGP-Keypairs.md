@@ -1,8 +1,8 @@
 # Manage PGP Keypairs
 
-# Create PGP Key Pair
+## Create PGP Key Pair
 
-## Kleopatra
+### Kleopatra
 
 The next step is to generate your keypair so you can encrypt/decrypt messages. Like always, we&#39;ll be going with 4096 bit RSA. You will create a Public and Private key pair with information related to your identity and email address or addresses. This is important to help others locate your public key on the key server.
 
@@ -43,7 +43,7 @@ Kleopatra should be used to create your key pairs instead of GPA because it will
 
 [![](RackMultipart20211128-4-dbovmn_html_f50dd61cfb766cef.png)](http://www.deepdotweb.com/wp-content/uploads/2015/02/1SRNdt61.png)
 
-## GPA
+### GPA
 
 Next, you want to make a PGP key. Remember, none of the details need to be valid. I&#39;d use your online name or a different alias when making your key. Something that isn&#39;t your gamertag for online games, or anything that may tie to you. A completely new alias. The e-mail doesn&#39;t need to be valid at all. Here are some pictures to help you through the process. Also, make a backup of your key!!!
 
@@ -69,27 +69,27 @@ Find where you put the back up of your key. It will be an .asc file but no worri
 
 When sharing your key with others, you want to copy and paste from the beginning dashes to the end dashes. Exactly how I have copied and pasted above.
 
-## GPG Suite
+### GPG Suite
 
 \&lt;…\&gt;
 
-# Publish the Public Key to a Key Server
+## Publish the Public Key to a Key Server
 
-## Kleopatra
+### Kleopatra
 
 Add your public key to a public key server so people can find your public key in order to send you secure messages.
 
-## GPA
+### GPA
 
 Add your public key to a public key server so people can find your public key in order to send you secure messages. A public key can be published to a key server from GPA by clicking on the &quot;Server&quot; menu and selecting &quot;Send Keys.&quot;
 
-## GPG Suite
+### GPG Suite
 
 \&lt;…\&gt;
 
-# Retrieve Public Keys
+## Retrieve Public Keys
 
-## Kleopatra
+### Kleopatra
 
 In this step we are going to retrieve the public key from the key pair that was just created. By doing this we are able to make the public key available to those that wish to communicate with you securely. Without it, they will not be able to encrypt messages that you are able to decrypt.
 
@@ -106,10 +106,10 @@ In this step we are going to retrieve the public key from the key pair that was 
 
 [![](RackMultipart20211128-4-dbovmn_html_27599d9bc39eb3c1.png)](http://www.deepdotweb.com/wp-content/uploads/2015/02/gJK0c9S1.png)
 
-## GPA
+### GPA
 
 \&lt;…\&gt;
 
-## GPG Suite
+### GPG Suite
 
 \&lt;…\&gt;
