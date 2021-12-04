@@ -1,10 +1,9 @@
 # Electronic message security
 
-## Joseph A Streeter
+Joseph A Streeter
+2016
 
-## 2016
-
-# Contents
+### Contents
 
 [Summary 3](#_Toc512342482)
 
