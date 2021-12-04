@@ -1,4 +1,5 @@
 # Command Line (gpg.exe)
+## Install
 
 ## Create PGP Keypair
 
@@ -17,17 +18,17 @@ gpg --list-keys
 ```
 ## Publish the Public Key
 ``` bash
-gpg --armor --output public.asc --export &#39;Your Name&#39;
+gpg --armor --output public.asc --export <Your Name>;
 ```
 ``` bash
-gpg --send-keys &#39;Your Name&#39; --keyserver hkp://subkeys.pgp.net
+gpg --send-keys <Your Name> --keyserver hkp://subkeys.pgp.net
 ```
 ``` bash
-gpg --search-keys &#39;myfriend@his.isp.com&#39; --keyserver hkp://subkeys.pgp.net
+gpg --search-keys <myfriend@his.isp.com> --keyserver hkp://subkeys.pgp.net
 ```
 ## Obtain the Private Key
 ``` bash
-gpg --armor --export-secret-key --output private.asc --export &#39;Your Name&#39;
+gpg --armor --export-secret-key --output private.asc --export <Your Name>
 ```
 ## Importing a Private Key
 ``` bash
@@ -37,11 +38,11 @@ gpg
 
 Here we encrypt/decrypt a file that is just for our own use.
 ``` bash
-gpg --encrypt --recipient &#39;Your Name&#39; foo.txt
+gpg --encrypt --recipient <Your Name> foo.txt
 ```
 ## Encrypting for Recipient
 ``` bash
-gpg --encrypt --recipient &#39;myfriend@his.isp.net&#39; foo.txt
+gpg --encrypt --recipient <myfriend@his.isp.net> foo.txt
 ```
 ## [Decrypting a Message](#_Toc469514821)
 ``` bash
@@ -49,7 +50,7 @@ gpg --output foo.txt --decrypt foo.txt.gpg
 ```
 ## Revoke a key
 ``` bash
-gpg --gen-revoke --output revoke.txt --export &#39;Your Name&#39;
+gpg --gen-revoke --output revoke.txt --export <Your Name>
 ```
 ## Signatures
 ``` bash
