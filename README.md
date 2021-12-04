@@ -3,7 +3,7 @@
 Joseph A Streeter
 2016
 
-# Summary
+## Summary
 
 The purpose of this post is to explain what PGP is and how to use it to secure communications. While frequently PGP is used together with other tools for anonymity, like Tor or I2P, that is not the purpose of this guide. The PGP encrypted messages do not have to be sent over email. Messages can be easily sent over SMS, Facebook, or any application that will allow you to paste in the encrypted message. The message could also be contained in an encrypted file and sent as an attachment or stored in a shared file system. This guide you will cover the basic tasks required to install a PGP application, create a PGP keypair, encrypt, decrypt, sign, and verify messages, as well as how store, share, and retrieve keys using a public key server.
 
@@ -22,7 +22,9 @@ To the best of publicly available information, there is no known method which wi
 ### Contents
 
 [PGP Background (Wikipedia) 3](#_Toc512342483)
+
 [Concepts 3](#_Toc512342484)
+
 [When should I sign? When should I encrypt? 4](#_Toc512342485)
 [Why don&#39;t you use PGP MIME attachments? Why don&#39;t you use the Mail.app PGP plugin? 5](#_Toc512342486)
 [Install 6](#_Toc512342487)
