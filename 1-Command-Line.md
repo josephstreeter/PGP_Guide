@@ -3,9 +3,9 @@
 ## Create PGP Keypair
 
 Before you can encrypt or sign files with GPG you must have a key.
-
+``` bash
 gpg --gen-key
-
+```
 ## Retrieve the Public Key
 
 Post the public, ascii side of your key to the web
