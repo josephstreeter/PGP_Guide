@@ -9,48 +9,52 @@ gpg --gen-key
 ## Retrieve the Public Key
 
 Post the public, ascii side of your key to the web
-
+``` bash
 gpg --import key.asc
-
+```
+``` bash
 gpg --list-keys
-
+```
 ## Publish the Public Key
-
+``` bash
 gpg --armor --output public.asc --export &#39;Your Name&#39;
-
+```
+``` bash
 gpg --send-keys &#39;Your Name&#39; --keyserver hkp://subkeys.pgp.net
-
+```
+``` bash
 gpg --search-keys &#39;myfriend@his.isp.com&#39; --keyserver hkp://subkeys.pgp.net
-
+```
 ## Obtain the Private Key
-
+``` bash
 gpg --armor --export-secret-key --output private.asc --export &#39;Your Name&#39;
-
+```
 ## Importing a Private Key
-
+``` bash
 gpg
-
+```
 ## Encrypting a Message
 
 Here we encrypt/decrypt a file that is just for our own use.
-
+``` bash
 gpg --encrypt --recipient &#39;Your Name&#39; foo.txt
-
+```
 ## Encrypting for Recipient
-
+``` bash
 gpg --encrypt --recipient &#39;myfriend@his.isp.net&#39; foo.txt
-
+```
 ## [Decrypting a Message](#_Toc469514821)
-
+``` bash
 gpg --output foo.txt --decrypt foo.txt.gpg
-
+```
 ## Revoke a key
-
+``` bash
 gpg --gen-revoke --output revoke.txt --export &#39;Your Name&#39;
-
+```
 ## Signatures
-
+``` bash
 gpg --verify crucial.tar.gz.asc crucial.tar.gz
-
+```
+``` bash
 gpg --armor --detach-sign your-file.zip
-
+```
