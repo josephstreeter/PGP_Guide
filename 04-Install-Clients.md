@@ -37,10 +37,6 @@ This should only take a few minutes to complete. See this picture to confirm you
 
 [![](RackMultipart20211128-4-dbovmn_html_64f646618718b6c2.png)](https://www.deepdotweb.com/wp-content/uploads/2015/02/TVjAVPp1.png)
 
-## Mac OS (GPG Suite)
-
-\&lt;…\&gt; [https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-mail](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-mail)
-
 ## iPhone (IPGMail)
 
 \&lt;…\&gt;
