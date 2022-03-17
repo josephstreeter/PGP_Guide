@@ -111,6 +111,42 @@ First make a blank text file and copy the users pubic key to it. Shown here:
  
 Then, in the Keys menu where you made your key, select import keys. Shown here:
  
+# Encrypting a Message
+## Kleopatra
+To create a message and encrypt it:
+1.	Open Notepad and create your message
+2.	Copy the entire message to the clipboard 
+ 
+3.	In your task bar, right click on the Kleopatra icon, go to “Clipboard”, then click “Encrypt…”  
+4.	This gorgeous window will open. Click “Add Recipient…”
+  
+5.	Another window will appear. Click the “Other Certificates” tab, then select who you want to send your message to, then click “Ok”. 
+ 
+6.	You should be back at the previous window with the recipient listed. Click “Next”  
+7.	If all went well, you should see this window. Click “Ok”
+  
+8.	Your encrypted message will be in your clipboard, all you need to do is paste it into the message box and send
+  
+
+GPA
+<..>
+
+# Decrypting a Message
+##Kleopatra
+
+This is just as easy as encrypting.
+1.	Copy everything that was sent
+  
+2.	In your task bar, right click on the Kleopatra icon, go to “Clipboard”, then click “Decrypt/Verify…”
+  
+3.	A window will pop up asking for your passphrase, enter that then click “Ok”
+  
+4.	A window should pop up verifying it was decrypted, and copied to your clipboard. Click “Finish”
+
+5.	Open your text editor of choice, and paste your message
+
+## GPA
+<…>
 
  
 
