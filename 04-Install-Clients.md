@@ -40,3 +40,5 @@ This should only take a few minutes to complete. See this picture to confirm you
 ## iPhone (IPGMail)
 
 \&lt;…\&gt;
+
+## Mac OS (GPG Suite)
