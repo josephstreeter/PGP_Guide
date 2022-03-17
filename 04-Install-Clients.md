@@ -2,6 +2,7 @@
 
 ## GPG (Linux)
 ### Redhat/CentOS
+~~~$ sudo yum install gnupg~~~
 ### Debian/Ubuntu
 
 ## GPG4Win (Windows)
