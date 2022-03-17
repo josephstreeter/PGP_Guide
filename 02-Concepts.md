@@ -46,12 +46,12 @@ _Sign and Encrypt_. If the contents of the email are confidential, sign and encr
 For 90% of messages most people send, signing and encrypting is not necessary. The remaining 10% of the time may require signing and encrypting confidential information (i.e. Personally Identifiable Information (PII), credit card information, bank numbers, social security numbers, corporate strategies, etc. 
 The need for signing only will likely be rare. 
 
-### Sending PGP encrypted attachments (a.k.a., PGP MIME type) vs sending cyphertext (a.k.a., PGP INLINE).
+## Sending PGP encrypted attachments (a.k.a., PGP MIME type) vs sending cyphertext (a.k.a., PGP INLINE).
 . Nothing is gained from sending the message as an attachments, so it ends up being extra steps for no reason
 . Inline text works places where attachments don&#39;t (the shell, Facebook, iMessage, etc.)
 . Many applications and email clients do not have built in PGP capabilities or available plugins requiring sedning inline anyway.
 
-### Using mail clinet PGP plugins (i.e., Mail.app PGP plugin).
+## Using mail clinet PGP plugins (i.e., Mail.app PGP plugin).
 . Relying on mail client plugins can result in a false sense of security. Unless you have access to the source code and are willing to review it, users have no idea what the plugins may be doing. 
 . When a plugin generates an attachment and sends it before you can see what is going on, you have no idea what is happening or if it is working.
  
