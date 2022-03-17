@@ -10,9 +10,9 @@ _Encrypt_ takes the recipient&#39;s _public_ key and scrambles a message. This s
 
 _Decrypt_ takes a message that has been _encrypted_ using the recipient&#39;s _public_ key and descrambles it using the recipient&#39;s _private_ key and the passphrase associated with that _private_ key. The recipient always decrypts with the _recipient&#39;s private_ key.
 
-_Sign__ing_ a message authenticates the author the message and provides cryptographic integrity. In other words, it ensures that the message was authored by the owner of the keypair that it was signed with and that it was not tampered with in transit. The _sender_ always signs a message with the _sender&#39;s private_ key and the passphrase associated with it.
+_Signing_ a message authenticates the author the message and provides cryptographic integrity. In other words, it ensures that the message was authored by the owner of the keypair that it was signed with and that it was not tampered with in transit. The _sender_ always signs a message with the _sender&#39;s private_ key and the passphrase associated with it.
 
-_Verify_ing a message is the process of analyzing a signed message, to determine if the signing is true.
+_Verifying_ a message is the process of analyzing a signed message, to determine if the signing is true.
 
 Signing and verifying can be thought of as opposites.
 
