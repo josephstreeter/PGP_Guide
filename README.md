@@ -5,12 +5,12 @@ Joseph A Streeter
 
 
 ### Contents
-[Summary]()
-[Concepts]()
-[Install Clients]()
-[Command Line]()
-[GPG4Win]()
-[Advanced]()
-[Conclusion]()
-[References]()
-[Clossary]()
+- [Summary]()
+- [Concepts]()
+- [Install Clients]()
+- [Command Line]()
+- [GPG4Win]()
+- [Advanced]()
+- [Conclusion]()
+- [References]()
+- [Clossary]()
