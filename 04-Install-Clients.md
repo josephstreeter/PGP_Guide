@@ -1,6 +1,10 @@
 # Install Clients
 
-## Windows (GPG4Win)
+## GPG (Linux)
+### Redhat/CentOS
+### Debian/Ubuntu
+
+## GPG4Win (Windows)
 
 Download: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)
 
@@ -19,7 +23,7 @@ Make sure that Kleopatra and GNU Privacy Assistant (GPA) are installed. GPA is n
 3. You can choose which Start Menu folder you want it installed in, just click &quot;Next&quot;
 4. It will now install, when done you should see this. Click &quot;Next&quot;, then &quot;Finish&quot; [![](RackMultipart20211128-4-dbovmn_html_6e4d881d85af9aa2.png)](http://www.deepdotweb.com/wp-content/uploads/2015/02/RYUfaj41.png)
 
-## Linux (GnuPG/Gnu Privacy Assistant)
+## GnuPG/Gnu Privacy Assistant (Linux)
 
 Like I said in the intro, we&#39;ll be using GnuPG with Gnu Privacy Assistant. I like GPA as a graphical front-end because its layout is really easy to understand and follow.
 
