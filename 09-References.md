@@ -12,3 +12,4 @@
 - https://riseup.net/en/security/message-security/openpgp/gpg-keys
 - https://blog.dest-unreach.be/2009/04/13/the-internals-of-a-gpgpgp-key
 - https://futureboy.us/pgp.html
+- https://www.poftut.com/install-use-gpg-encrytion-linux-order-encrypt-decrypt-files-folder/
