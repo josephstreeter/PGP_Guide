@@ -44,7 +44,7 @@ gpg --encrypt --recipient <Your Name> foo.txt
 ``` bash
 gpg --encrypt --recipient <myfriend@his.isp.net> foo.txt
 ```
-## [Decrypting a Message](#_Toc469514821)
+## Decrypting a Message
 ``` bash
 gpg --output foo.txt --decrypt foo.txt.gpg
 ```
